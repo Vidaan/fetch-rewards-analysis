@@ -32,7 +32,7 @@ Foreign Key - barcode
 Foreign Key - receipt_id, user_id
 
 ## 3. Data Quality:
-Some of the data quality checks employed are listed below. Refer to [Data quality checks](https://github.com/Vidaan/rewards-receipt-analysis/blob/main/4_data_quality_checks.sql) and [email to product team](https://github.com/Vidaan/rewards-receipt-analysis/blob/main/email_to_product_team.pdf) files for more details.
+Some of the data quality checks employed are listed below. Refer to [data quality checks](https://github.com/Vidaan/rewards-receipt-analysis/blob/main/4_data_quality_checks.sql) and [email to product team](https://github.com/Vidaan/rewards-receipt-analysis/blob/main/email_to_product_team.pdf) files for more details.
 1. Uniqueness test
 2. Null values test
 3. Non-negative test
