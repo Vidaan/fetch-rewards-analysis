@@ -94,7 +94,7 @@ WHERE BARCODE = '511111004790';
 
 --=============================================================================================================================
 
--- Null values
+-- Null values test
 
 -- Observation - There are null values in Category, Category Code, Brand Code columns
 SELECT *
@@ -139,6 +139,7 @@ WHERE ITEMPRICE < 0;
 --================================================================================================================
 
 -- Accepted Values test
+
 -- Some rows contain non-descriptive values in the Brandcode column
 SELECT *
 FROM T2_BRANDS_BASE
