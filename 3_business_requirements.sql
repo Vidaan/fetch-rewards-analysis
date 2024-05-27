@@ -18,7 +18,7 @@ link_receipt_item AS (
         RECEIPT_ID, 
         (YEAR(DATESCANNED) || '-' || MONTHNAME(DATESCANNED)) AS year_mon, 
         brand,
-    FROM T3_USER_RECIPT_ITEM
+    FROM T3_USER_RECEIPT_ITEM
     WHERE (YEAR(DATESCANNED) || '-' || MONTH(DATESCANNED)) IN ('2021-3','2021-2', '2021-1') AND TRIM(BRAND) NOT IN ('ITEM', 'DELETED', '')
 ),
 
@@ -65,7 +65,7 @@ users_list AS (
     -- getting brand and final price
 user_brand_map AS (
     SELECT BRAND, FINALPRICE
-    FROM T3_USER_RECIPT_ITEM uri
+    FROM T3_USER_RECEIPT_ITEM uri
     WHERE uri.USER_ID IN (SELECT USER_ID FROM users_list) AND BRAND IS NOT NULL AND TRIM(BRAND) <> ''
 ),
 
