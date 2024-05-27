@@ -14,21 +14,21 @@ The above picture shows the structuring of data based on the files provided for 
 ## 2. Table setup:
 A detailed relationship between the tables is provided in the ER diagram (refer ER_diagram.pdf).
 
-### T2_BRANDS_BASE:
+#### T2_BRANDS_BASE:
 Primary Key - barcode
 Using barcode as a PK because it has reference in the Brands data and Receipts data. Also, most brands have one barcode for each brand.
 
-### T2_USERS_BASE:
+#### T2_USERS_BASE:
 Primary Key - user_id
 
-### T2_RECEIPTS_BASE:
+#### T2_RECEIPTS_BASE:
 Primary Key - receipt_id
 
-### T2_REWARDS_RECEIPT_ITEM_LIST:
+#### T2_REWARDS_RECEIPT_ITEM_LIST:
 Composite Key - receipt_id, item_index_num
 Foreign Key - barcode
 
-### T3_USER_RECIPT_ITEM:
+#### T3_USER_RECIPT_ITEM:
 Foreign Key - receipt_id, user_id
 
 ## 3. Data Quality:
