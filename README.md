@@ -12,7 +12,7 @@ The above picture shows the structuring of data based on the files provided for 
 3. The Mart Data layer contains a table that is customized to contain only the columns and data that is frequently used to answer business questions.
 
 ## 2. Table setup:
-A detailed relationship between the tables is provided in the ER diagram (refer ER_diagram.pdf).
+A detailed relationship between the tables is provided in the ER diagram (refer [ER_diagram.pdf](https://github.com/Vidaan/rewards-receipt-analysis/blob/main/ER_diagram.pdf)).
 
 #### T2_BRANDS_BASE:
 Primary Key - barcode
@@ -32,7 +32,7 @@ Foreign Key - barcode
 Foreign Key - receipt_id, user_id
 
 ## 3. Data Quality:
-Some of the data quality checks employed are listed below. Refer to [4_data_quality_checks.sql](https://github.com/Vidaan/rewards-receipt-analysis/blob/main/4_data_quality_checks.sql) and email_to_product_team files for more details.
+Some of the data quality checks employed are listed below. Refer to [4_data_quality_checks.sql](https://github.com/Vidaan/rewards-receipt-analysis/blob/main/4_data_quality_checks.sql) and [email_to_product_team](https://github.com/Vidaan/rewards-receipt-analysis/blob/main/email_to_product_team.pdf) files for more details.
 1. Uniqueness test
 2. Null values test
 3. Non-negative test
