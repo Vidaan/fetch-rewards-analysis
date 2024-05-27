@@ -13,7 +13,7 @@ SELECT * FROM T2_USERS_BASE;
 
 -- Table in layer 3
 
-SELECT * FROM T3_USER_RECIPT_ITEM;
+SELECT * FROM T3_USER_RECEIPT_ITEM;
 
 --===========================================================================================
 
@@ -192,7 +192,7 @@ CREATE OR REPLACE TABLE T2_USERS_BASE AS (
 
 -- USER AND RECEIPT DATA
 
-CREATE OR REPLACE TABLE T3_USER_RECIPT_ITEM AS (
+CREATE OR REPLACE TABLE T3_USER_RECEIPT_ITEM AS (
     SELECT 
             rb.RECEIPT_ID, 
             rb.user_id,
