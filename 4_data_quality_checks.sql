@@ -122,7 +122,7 @@ WHERE signupsource IS NULL OR state IS NULL;
 
 -- Observation - All values are positive
 SELECT *
-FROM T2_RECEIPTS_BASE;
+FROM T2_RECEIPTS_BASE
 WHERE TOTALSPENT < 0;
 
 -- Observation - All values are positive
