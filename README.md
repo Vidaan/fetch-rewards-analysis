@@ -39,4 +39,4 @@ Some of the data quality checks employed are listed below. Refer to [data qualit
 4. Accepted Values test
 
 ## Summary:
-It is possible to answer the current business questions based on the data provided but the overall data flow structure and efficiency of queries can be improved if some of the questions put forth to the product team get answered. Currently some redundant data that are being duplicated within some tables which can be avoided.
+It is possible to answer the current business questions based on the data provided but the overall data flow structure and efficiency of queries can be improved if some of the questions put forth to the product team get answered. Currently some redundant data that are being duplicated within some tables which can be avoided. Also, as a next step it would be helpful to know how updates to the data need to be captured (CDC or Append) based on which corresponding History tables can be created to make this production ready. 
